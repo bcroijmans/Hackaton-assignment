@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Dancing Script", sans-serif;
+  padding: 5px;
+  margin: 0 auto;
+  border: 0;
+  background-color: black;
+  color: burlywood;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 75px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+  .li1 {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: black;
+    font-size: 35px;
+  }
+
+  .li1 a:hover {
+    background-color: white;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 6;
+    grid-template-rows: 6;
+    font-size: 25px;
+  }
+  .title {
+    grid-row: 1;
+    grid-column: 3;
+  }
+
+  .box1 {
+    border: solid burlywood;
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .box2 {
+    border: solid burlywood;
+    grid-row: 2;
+    grid-column: 4;
+  }
+
+  .box3 {
+    border: solid burlywood;
+    grid-row: 4;
+    grid-column: 3;
+  }
+
+  .box4 {
+    border: solid burlywood;
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .box5 {
+    border: solid burlywood;
+    grid-row: 5;
+    grid-column: 4;
+  }
+  .homebut {
+    grid-row: 6;
+    grid-column: 3;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: small;
+    background-color: black;
+    max-width: fit-content;
+    color: white;
+  }
+}
+
+@media (min-width: 1024px) {
+}

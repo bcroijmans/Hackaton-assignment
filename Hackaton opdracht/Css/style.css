@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  margin: 0 auto;
+  border: 0;
+}
+
+body {
+  background-image: url(../media/backgroundcapetown.avif);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0;
+  padding: center;
+  padding: 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+a {
+  color: blue;
+}
+
+li {
+  font-size: 15px;
+}
+.li1 {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  text-align: center;
+  list-style-type: none;
+  background-color: cornflowerblue;
+}
+
+.li1 a:hover {
+  background-color: rgb(2, 0, 141);
+}
+
+footer {
+  text-align: center;
+  margin-top: 300px;
+  font-size: small;
+  background-color: rgb(19, 153, 91);
+  max-width: fit-content;
+}
+
+@media (min-width: 1024px) {
+  .li1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+    list-style-type: none;
+    background-color: cornflowerblue;
+  }
+}
